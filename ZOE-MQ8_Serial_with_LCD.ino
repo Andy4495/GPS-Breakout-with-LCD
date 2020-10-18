@@ -1,21 +1,23 @@
 /*
- * GPS Receiver setup using Tiva TM4C LaunchPad, SparkFun ZOE-M8Q GPS breakout, and CrystalFonz 8x2 LCD. 
- * Sketch is based on Example12_UseUart.ino from SparkFun Ublox Arduino Library: 
+ * https://github.com/Andy4495/GPS-Breakout-with-LCD
+ *
+ * GPS Receiver setup using Tiva TM4C LaunchPad, SparkFun ZOE-M8Q GPS breakout, and CrystalFonz 8x2 LCD.
+ * Sketch is based on Example12_UseUart.ino from SparkFun Ublox Arduino Library:
  *     https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library
- *     
- * The ZOE-M8Q I2C interface is unreliable in my setup. I am not sure if this is a problem with the    
- * hardware or the SparkFun library. This sketch uses UART to communicate between the LaunchPad and 
- * the GPS module, without issue. 
- * The Tiva TM4C LaunchPad has 8 available hardware serial ports. This sketch uses UART module 1 
+ *
+ * The ZOE-M8Q I2C interface is unreliable in my setup. I am not sure if this is a problem with the
+ * hardware or the SparkFun library. This sketch uses UART to communicate between the LaunchPad and
+ * the GPS module, without issue.
+ * The Tiva TM4C LaunchPad has 8 available hardware serial ports. This sketch uses UART module 1
  * (accessed using the "Serial1" object). Debug information is sent through the usual "Serial"
- * USB backchannel. 
- * 
- * The LCD display cycles between several GPS data values (lat/long, altitude, # satellites, ground speed, date/time). 
- * Hold down "SW1" on the LaunchPad to freeze the display at the current reading. 
- * 
+ * USB backchannel.
+ *
+ * The LCD display cycles between several GPS data values (lat/long, altitude, # satellites, ground speed, date/time).
+ * Hold down "SW1" on the LaunchPad to freeze the display at the current reading.
+ *
  * 10/17/2020  1.0  A.T.  Initial
- * 
- * Original code by: 
+ *
+ * Original code by:
   By: Nathan Seidle, Adapted from Example3_GetPosition by Thorsten von Eicken
   SparkFun Electronics
   Date: January 28rd, 2019
@@ -31,7 +33,7 @@ SFE_UBLOX_GPS myGPS;
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(11, 12, 13, 14, 15, 18);
 
-long lastTime = 0; 
+long lastTime = 0;
 
 void setup()
 {
