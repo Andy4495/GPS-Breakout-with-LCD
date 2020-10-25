@@ -46,9 +46,9 @@ References
 ---------------------
 
 + SparkFun ZOE-M8Q [GPS Breakout][1]
++ Texas Instruments [TM4C LaunchPad][2]
   + Embedded Computing [pinout diagram][5]
   + Note that RX1/TX1 on pins 37/36 should be labeled as RX4/TX4
-+ Texas Instruments [TM4C LaunchPad][2]
 + CrystalFonz [LCD][3]
   + [datasheet][4]
 
