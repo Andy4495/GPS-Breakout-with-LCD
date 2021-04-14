@@ -52,8 +52,15 @@ References
 + CrystalFonz [LCD][3]
   + [datasheet][4]
 
+License
+-------
+The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE`][101] in this repository.
+
+
 [1]:https://www.sparkfun.com/products/15193
 [2]:https://www.ti.com/tool/EK-TM4C123GXL
 [3]:https://www.crystalfontz.com/product/cfah0802anygjt-display-module-text-8x2
 [4]:https://www.crystalfontz.com/products/document/891/CFAH0802A-NYG-JTDatasheet.pdf
 [5]:https://embeddedcomputing.weebly.com/launchpad-stellaris-lm4f120-pins-maps.html
+[100]: https://choosealicense.com/licenses/mit/
+[101]: ./LICENSE
