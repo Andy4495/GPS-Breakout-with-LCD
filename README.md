@@ -1,5 +1,7 @@
 # GPS Receiver ZOE-MQ8 with LCD Display
 
+[![Check Markdown Links](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/CheckMarkdownLinks.yml)
+
 GPS Receiver setup using Tiva TM4C LaunchPad, SparkFun ZOE-M8Q GPS breakout, and CrystalFonz 8x2 LCD. Sketch is based on Example12_UseUart.ino by Nathan Seidle from SparkFun Ublox Arduino Library:
     <https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library>
 
@@ -39,6 +41,12 @@ LaunchPad   GPS  LCD    Signal Name
                  3      Vo (wiper pin on 10K pot tied between +5V and GND)
 ```
 
+## External Libraries
+
+- SparkFun [Ublox Arduino Library][6]
+
+  This sketch uses SparkFun's [Ublox Arduino library][6]. That library has since been deprecated and replaced with SparkFun's [Ublox GNSS library][7]. Migrating to the new library requires some minor sketch updates as outlined [here][8].
+
 ## References
 
 - SparkFun ZOE-M8Q [GPS Breakout][1]
@@ -57,6 +65,9 @@ The software and other files in this repository are released under what is commo
 [3]:https://www.crystalfontz.com/product/cfah0802anygjt-display-module-text-8x2
 [4]:https://www.crystalfontz.com/products/document/891/CFAH0802A-NYG-JTDatasheet.pdf
 [5]:https://embeddedcomputing.weebly.com/launchpad-stellaris-lm4f120-pins-maps.html
+[6]:https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library
+[7]:https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library
+[8]:https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library#migrating-to-v20
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE
 [200]: https://github.com/Andy4495/GPS-Breakout-with-LCD
