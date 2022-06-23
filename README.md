@@ -1,5 +1,6 @@
 # GPS Receiver ZOE-MQ8 with LCD Display
 
+[![Arduino Compile Sketches](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/arduino-compile-sketches.yml)
 [![Check Markdown Links](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/CheckMarkdownLinks.yml)
 
 GPS Receiver setup using Tiva TM4C LaunchPad, SparkFun ZOE-M8Q GPS breakout, and CrystalFonz 8x2 LCD. Sketch is based on Example12_UseUart.ino by Nathan Seidle from SparkFun Ublox Arduino Library:
