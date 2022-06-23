@@ -45,7 +45,7 @@ LaunchPad   GPS  LCD    Signal Name
 
 - SparkFun [Ublox Arduino Library][6]
 
-  This sketch uses SparkFun's [Ublox Arduino library][6]. That library has since been deprecated and replaced with SparkFun's [Ublox GNSS library][7]. Migrating to the new library requires some minor sketch updates as outlined [here][8].
+  This sketch uses SparkFun's [u-blox Arduino library][6]. That library has since been deprecated and replaced with SparkFun's [u-blox GNSS library][7]. Migrating to the new library requires some minor sketch updates as outlined [here][8].
 
 ## References
 

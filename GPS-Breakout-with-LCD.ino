@@ -27,7 +27,7 @@
 
 */
 
-#include "SparkFun_Ublox_Arduino_Library.h" https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library
+#include "SparkFun_Ublox_Arduino_Library.h" // https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library
 SFE_UBLOX_GPS myGPS;
 
 #include <LiquidCrystal.h>
