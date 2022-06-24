@@ -3,8 +3,9 @@
 [![Arduino Compile Sketches](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/arduino-compile-sketches.yml)
 [![Check Markdown Links](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/GPS-Breakout-with-LCD/actions/workflows/CheckMarkdownLinks.yml)
 
-GPS Receiver setup using Tiva TM4C LaunchPad, SparkFun ZOE-M8Q GPS breakout, and CrystalFonz 8x2 LCD. Sketch is based on Example12_UseUart.ino by Nathan Seidle from SparkFun Ublox Arduino Library:
-    <https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library>
+GPS Receiver hardware and sketch using Tiva TM4C LaunchPad, SparkFun ZOE-M8Q GPS breakout, and CrystalFonz 8x2 LCD. The sketch is based on Example12_UseUart.ino by Nathan Seidle from the [SparkFun u-blox Arduino Library][6].
+
+## Implementation
 
 The ZOE-M8Q I2C interface is unreliable in my setup. I am not sure if this is a problem with the    hardware or the SparkFun library. This sketch uses UART to communicate between the LaunchPad and the GPS module, without issue.
 The Tiva TM4C LaunchPad has 8 available hardware serial ports. This sketch uses UART module 1 (accessed using the "Serial1" object). Debug information is sent through the usual "Serial" USB backchannel.
