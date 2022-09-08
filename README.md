@@ -72,4 +72,4 @@ The software and other files in this repository are released under what is commo
 [8]:https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library#migrating-to-v20
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE
-[200]: https://github.com/Andy4495/GPS-Breakout-with-LCD
+[//]: # ([200]: https://github.com/Andy4495/GPS-Breakout-with-LCD)
